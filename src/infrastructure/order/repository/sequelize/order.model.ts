@@ -2,6 +2,7 @@ import { BelongsTo, Column, ForeignKey, HasMany, Model, PrimaryKey, Table } from
 import CustomerModel from '../../../customer/repository/sequelize/customer.model';
 import OrderItemModel from './order-item.model';
 
+
 @Table({
     tableName: "orders",
     timestamps: false
